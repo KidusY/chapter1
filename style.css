@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+}
+
+.description {
+  width: 65%;
+  background-color: rgb(228, 228, 228);
+  min-height: 100vh;
+  height: auto;
+}
+.description .name {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  top: 100px;
+}
+.description .name h1 {
+  padding: 20px;
+}
+.description .name h2 {
+  font-weight: 300;
+}
+
+.descriptionInfo {
+  position: relative;
+  top: 120px;
+  padding: 30px;
+}
+
+.personalInfo {
+  background-color: rgb(27, 27, 27);
+  min-height: 100vh;
+  height: auto;
+  width: 35%;
+}
+.personalInfo .pic {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  top: 100px;
+}
+.personalInfo .pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -20px;
+}
+.contactInfo {
+  position: relative;
+  top: 200px;
+  color: white;
+}
+.contactInfo hr {
+  margin: 0 auto;
+  color: rgb(196, 196, 196);
+}
+
+.contactInfo h2 {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  padding: 2px;
+}
+.contactInfo ul {
+  display: block;
+  margin: 30px auto;
+  width: 80%;
+  list-style: none;
+  text-align: center;
+}
+.contactInfo ul li {
+  width: 100%;
+  display: flex;
+}
+.contactInfo ul li span {
+  width: 200px;
+  color: white;
+}
+.contactInfo ul li span a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contactInfo ul li i {
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+}
